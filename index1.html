@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indra Kant Pathak - Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0077cc;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    button {
+      background-color: #0077cc;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    #extraSkills {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Indra Kant Pathak</h1>
+    <p>Language Expert | Educator | Yoga Trainer | Corporate Trainer</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Personal Information</h2>
+      <p><strong>Age:</strong> 55 years</p>
+      <p><strong>Experience:</strong> 27+ years in teaching & training</p>
+      <p><strong>Location:</strong> India</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>M.A. in English (2012)</li>
+        <li>Zoology (Hons.) Graduate</li>
+        <li>Honours Diploma in Computer (NIIT Patna, 1992)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Language Proficiency</h2>
+      <ul>
+        <li>English (20+ years of teaching experience)</li>
+        <li>French (B2 Certificate + Teaching Experience)</li>
+        <li>German, Spanish, Italian, Japanese, Chinese (Mandarin)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>C, C++, Core Java</li>
+        <li>HTML, CSS, JavaScript (Learning)</li>
+        <li>Machine Learning (Exploring)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Professional Experience</h2>
+      <ul>
+        <li>Manager, UNIQUE SCHOOL OF LANGUAGE</li>
+        <li>Faculty at: IIMT University, Quantum University, Lingaya's, Noida Int’l University</li>
+        <li>Admission Cell In-charge, IIMT University</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Special Achievements</h2>
+      <ul>
+        <li>Created 84+ language instructional videos on YouTube (527+ subscribers)</li>
+        <li>Corporate Trainer at New Holland Tractor Pvt. Ltd. and Studio Lotus</li>
+        <li>Special Yoga Instructor (13+ years)</li>
+        <li>Unique English Speaking Method – 108 Q&A in 1 Hour</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Family</h2>
+      <p><strong>Father:</strong> Shiv Shankar Pathak</p>
+      <p><strong>Mother:</strong> Radha Devi (Teacher, Bihar, 70 years)</p>
+      <p><strong>Son:</strong> Dr. Divyanshu Shekhar Pathak (BDS, MBA at IIM Ranchi)</p>
+    </div>
+
+    <div class="section">
+      <h2>Other Interests</h2>
+      <p>Deep interest in human anatomy, especially brain and heart. Also teaches Biology and Physiology.</p>
+    </div>
+
+    <div class="section">
+      <h2>More Skills</h2>
+      <button onclick="toggleExtraSkills()">Toggle Extra Skills</button>
+      <div id="extraSkills">
+        <ul>
+          <li>Mandarin character teaching with gestures & tones (planned video series)</li>
+          <li>Plans to introduce Japanese at UNIQUE SCHOOL OF LANGUAGE</li>
+          <li>Fluency training for students and professionals</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleExtraSkills() {
+      const div = document.getElementById("extraSkills");
+      if (div.style.display === "none") {
+        div.style.display = "block";
+      } else {
+        div.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
